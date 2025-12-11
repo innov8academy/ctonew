@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Frontend App',
-  description: 'Next.js 14 application with TypeScript',
+  title: 'Spotify Wrapped Slides',
+  description:
+    'Beautiful slide templates inspired by Spotify Wrapped with dark theme and premium animations',
 };
 
 export default function RootLayout({

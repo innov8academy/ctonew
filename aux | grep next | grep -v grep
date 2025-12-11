@@ -1,0 +1,32 @@
+[33mcommit e1e742d0f9dabf8ceabdec21d5be19dbcc8f8505[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeat-slide-templates-spotify-wrapped[m[33m, [m[1;31morigin/feat-slide-templates-spotify-wrapped[m[33m)[m
+Author: cto-new[bot] <140088366+cto-new[bot]@users.noreply.github.com>
+Date:   Thu Dec 11 08:07:22 2025 +0000
+
+    feat(slides): add Spotify Wrapped-inspired slide templates and design system
+
+ IMPLEMENTATION_SUMMARY.md                          |  248 [32m++[m
+ SLIDE_TEMPLATES.md                                 |  557 [32m+++[m
+ apps/frontend/src/app/favicon.ico                  |    1 [31m-[m
+ apps/frontend/src/app/globals.css                  |  110 [32m+[m[31m-[m
+ apps/frontend/src/app/icon.svg                     |    5 [32m+[m
+ apps/frontend/src/app/layout.tsx                   |    5 [32m+[m[31m-[m
+ apps/frontend/src/app/wrapped/page.tsx             |   82 [32m+[m
+ .../src/components/slides/IntroSlide.module.css    |  207 [32m++[m
+ apps/frontend/src/components/slides/IntroSlide.tsx |   39 [32m+[m
+ .../src/components/slides/QuotesSlide.module.css   |  199 [32m++[m
+ .../frontend/src/components/slides/QuotesSlide.tsx |   47 [32m+[m
+ apps/frontend/src/components/slides/README.md      |  397 [32m+++[m
+ .../components/slides/SlideContainer.module.css    |   45 [32m+[m
+ .../src/components/slides/SlideContainer.tsx       |   18 [32m+[m
+ .../src/components/slides/SlideRenderer.tsx        |   37 [32m+[m
+ .../slides/SlidesPresentation.module.css           |  213 [32m++[m
+ .../src/components/slides/SlidesPresentation.tsx   |  116 [32m+[m
+ .../slides/StatsOverviewSlide.module.css           |  172 [32m+[m
+ .../src/components/slides/StatsOverviewSlide.tsx   |   47 [32m+[m
+ .../src/components/slides/SummarySlide.module.css  |  231 [32m++[m
+ .../src/components/slides/SummarySlide.tsx         |   52 [32m+[m
+ .../components/slides/TopPromptsSlide.module.css   |  209 [32m++[m
+ .../src/components/slides/TopPromptsSlide.tsx      |   47 [32m+[m
+ packages/common/src/types.ts                       |   53 [32m+[m
+ pnpm-lock.yaml                                     | 3636 [32m++++++++++++++++++++[m
+ 25 files changed, 6767 insertions(+), 6 deletions(-)
